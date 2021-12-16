@@ -10,6 +10,10 @@ Promise.all([
   Scene.root.findFirst("bustC"),
 ]).then(onReady);
 
+
+// test line
+
+
 function onReady(assets) {
   const bustA = assets[0];
   const bustB = assets[1];
